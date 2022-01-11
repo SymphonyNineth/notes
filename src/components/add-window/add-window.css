@@ -1,0 +1,24 @@
+.add-window {
+    padding: 2rem;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.add-window label {
+    color: #fff;
+}
+
+.form-legend {
+    color: #fff;
+    text-align: center;
+}
+
+.btn-close {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
